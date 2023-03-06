@@ -11,7 +11,7 @@ const useMainStore = defineStore("main", {
     startDate: startDate,
     endDate: endDate,
 
-    isLoading: false,
+    isLoading: true,
   }),
 });
 

@@ -3,7 +3,7 @@ const tabbarData = [
     text: "首页",
     image: "tabbar/tab_home.png",
     imageActive: "tabbar/tab_home_active.png",
-    path: " home",
+    path: "/home",
   },
   {
     text: "收藏",

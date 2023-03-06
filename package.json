@@ -13,6 +13,9 @@
     "dayjs": "^1.11.7",
     "normalize.css": "^8.0.1",
     "pinia": "^2.0.32",
+    "postcss": "^8.4.21",
+    "postcss-px-to-viewport": "^1.1.1",
+    "underscore": "^1.13.6",
     "vant": "^4.0.11",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"

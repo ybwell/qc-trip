@@ -1,7 +1,25 @@
 <template>
-  <div class="favor"><h2>favor</h2></div>
+  <div class="favor" ref="favorRef">
+    <h2>favor</h2>
+    <template v-for="item in 100">
+      <div>列表数据:{{ item }}</div>
+    </template>
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+import useScroll from "@/hooks/useScroll";
 
-<style lang="less" scoped></style>
+const favorRef = ref();
+
+useScroll(favorRef);
+</script>
+
+<style lang="less" scoped>
+.favor {
+  height: 300px;
+  background: orange;
+  overflow-y: auto;
+}
+</style>
